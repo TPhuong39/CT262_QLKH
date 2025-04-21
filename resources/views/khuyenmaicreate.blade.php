@@ -85,13 +85,17 @@
                                     <div class="col-lg-6">
                                         <div class="form-row">
                                             <label class="control-label text-left">Ngày bắt đầu</label>
-                                            <input type="date" name="KM_NgayBatDau" value="{{ old('KM_NgayBatDau', $khuyenmai->KM_NgayBatDau ?? '') }}" class="form-control" autocomplete="off">
+                                            <input type="date" name="KM_NgayBatDau"
+                                                    value="{{ old('KM_NgayBatDau', isset($khuyenmai->KM_NgayBatDau) ? date('Y-m-d', strtotime($khuyenmai->KM_NgayBatDau)) : '') }}"
+                                                    class="form-control">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-row">
                                             <label class="control-label text-left">Ngày kết thúc</label>
-                                            <input type="date" name="KM_NgayKetThuc" value="{{ old('KM_NgayKetThuc', $khuyenmai->KM_NgayKetThuc ?? '') }}" class="form-control" autocomplete="off">
+                                            <input type="date" name="KM_NgayKetThuc"
+                                            value="{{ old('KM_NgayKetThuc', isset($khuyenmai->KM_NgayKetThuc) ? date('Y-m-d', strtotime($khuyenmai->KM_NgayKetThuc)) : '') }}"
+                                            class="form-control">
                                         </div>
                                     </div>
                                 </div>

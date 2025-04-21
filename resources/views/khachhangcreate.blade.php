@@ -131,7 +131,7 @@
                                     <div class="col-lg-6">
                                         <div class="form-row">
                                             <label class="control-label text-left">Ngày sinh</label>
-                                            <input type="date" name="KH_NgaySinh" value="{{ old('NgaySinh', $khachhang->NgaySinh ?? '') }}" class="form-control" autocomplete="off">
+                                            <input type="date" name="KH_NgaySinh" value="{{ old('KH_NgaySinh', $khachhang->KH_NgaySinh ?? '') }}" class="form-control" autocomplete="off">
                                         </div>
                                     </div>
                                 </div>
