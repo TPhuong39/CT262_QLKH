@@ -15,19 +15,19 @@
 
 <br><b>Cài Đặt:</b><br>
 - Clone dự án về máy qua câu lệnh: 
-  <code>git clone https://github.com/NgocMy03/Map01.git</code><br>
+  <code>git clone https://github.com/TPhuong39/CT262_QLKH.git</code><br>
 - Cài đặt các package PHP: 
   <code>composer install</code><br>
 - Tạo file <code>.env</code><br>
 - Copy nội dung từ file <code>.env.example</code> và chỉnh sửa lại phần kết nối cơ sở dữ liệu trong file <code>.env</code>:<br>
-  <code>DB_DATABASE=ct298map01</code><br>
+  <code>DB_DATABASE=ct262_qlkh</code><br>
 - Tạo key ứng dụng:
   <code>php artisan key:generate</code><br>
 
 <b>Khôi phục cơ sở dữ liệu bằng phpMyAdmin:</b><br>
 + Mở: <a href="http://localhost/phpmyadmin" target="_blank">http://localhost/phpmyadmin</a><br> (Bằng Xampp hoặc công cụ tương tự)
-+ Tạo database tên <code>ct298map01</code><br>
-+ Import file <code>ct298map01.sql</code> vào database vừa tạo<br>
++ Tạo database tên <code>ct262_qlkh</code><br>
++ Import file <code>ct262_qlkh.sql</code> vào database vừa tạo<br>
 
 - Chạy Laravel Server: 
   <code>php artisan serve</code> 
